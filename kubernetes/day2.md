@@ -170,7 +170,22 @@ kubectl config view
 
 https://kubernetes.io/docs/concepts/architecture/#kube-apiserver
 ---
+## ☸️ 8. Delete EKS Cluster(Important to save billing)
 
+Run the following command:
+
+```bash
+eksctl delete cluster --name my-cluster --region ap-south-2
+
+```
+
+This deletes:
+- EKS Control Plane
+- Managed Node Group
+- OIDC provider for IAM roles
+- EKS Cluster
+
+---
 ## ✅ Done!
 
 You have now:
