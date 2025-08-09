@@ -141,7 +141,8 @@ kubectl get nodes
 Run this command to deploy Kubernetes manifests:
 
 ```powershell
-kubectl apply -f C:\Users\vsrid\IdeaProjects\blue-green-jenkins-java-app\k8s\
+kubectl apply -f [C:\Users\vsrid\IdeaProjects\blue-green-jenkins-java-app\k8s\](https://github.com/savipavan/blue-green-jenkins-java-app/blob/main/k8s/deployment-blue.yaml)
+
 ```
 
 ---
